@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mooli', sans-serif;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  h1 {
+    padding: 1rem;
+  }
+  .axis-title {
+    font-size: 0.8rem;
+  }
+  #tooltip {
+    position: absolute;
+    pointer-events: none;
+    background-color: rgb(33, 32, 31);
+    color: rgb(235, 239, 241);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  #graph rect:hover {   /* To giv the rect element a black border on mouseover */
+     stroke: black;
+     stroke-width: 2;
+  }
